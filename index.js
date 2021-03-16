@@ -74,6 +74,12 @@ const drawNav = (data) => {
       <input type="text" placeholder="Your show name here" id="show-name" />
     </form>
     <div class="card"></div>
+    <p class="footer-text">
+      Built with ❤️ in JavaScript. 
+      <a href="https://github.com/minhajul-karim/your-favourite-show/issues" class="bug-report" target="_blank">
+      &#160;Report Bug
+      </a>
+    </p>
   ` 
 }
 

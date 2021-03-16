@@ -135,6 +135,24 @@ ul {
   border: 0.2em solid #000;
 }
 
+/* Footer */
+
+.footer-text,
+.bug-report {
+  font-size: 0.8rem;
+  color: #000;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bug-report {
+  text-decoration: underline;
+}
+
 @media (min-width: 801px) {
   nav {
     grid-template: auto / 1fr 300px 500px 1fr;
