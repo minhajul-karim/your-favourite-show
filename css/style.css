@@ -121,6 +121,20 @@ ul {
   align-self: end;
 }
 
+/* Form */
+#search-form {
+  display: flex;
+  justify-content: center;
+  margin: 1em 0;
+}
+
+#show-name {
+  text-align: center;
+  width: 300px;
+  padding: 0.5em 0;
+  border: 0.2em solid #000;
+}
+
 @media (min-width: 801px) {
   nav {
     grid-template: auto / 1fr 300px 500px 1fr;
